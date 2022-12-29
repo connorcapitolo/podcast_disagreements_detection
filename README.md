@@ -1,6 +1,8 @@
 # Podcast Disagreement Detection
 #### Capstone project for AC297R in partnership with Spotify
 
+In collaboration with Morris Reeves, Jiahui Tang, and Max Li
+
 *Please note that due to the sensitive nature of our data, we are not able to publicly share data sets or data files. If you would like to run our code, please visit the [Spotify English-Language Podcast Dataset](https://podcastsdataset.byspotify.com/) and request access to the data. When you are able to obtain the Spotify data, please place them in the appropriate location within the data/ folder in order to properly run our code.*
 
 [Pipenv](https://pipenv.pypa.io/en/latest/) automatically creates and manages the virtual environment for this project, meaning that it includes all packages necessary to run our code*. To activate the virtual environment, from the top-level directory, simply type
