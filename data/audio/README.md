@@ -1,0 +1,1 @@
+This folder will contain the .ogg and .mp3 files to perform the discretization and dataset creation

@@ -1,0 +1,30 @@
+# Ignore audio files (to avoid accidental pushes)
+*.ogg
+*.mp3
+*.wav
+# Ignore some transcript files (to avoid accidental pushes)
+spotify-podcasts-2020/
+show_55R0CZoqgY3hcmCmVkmBig/
+# Ignore pickle data files
+*.pkl
+# ignore log files, except for runtime_info.log used for presentation purposes
+*.log
+!runtime_info.log
+# making exception for this one pickle file
+!compiled_annotations_df.pkl
+!unioned_annotations_dict.pkl
+!discretized_dict.pkl
+!compiled_annotations_df_protocol4.pkl
+*.bin
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints
+.DS_Store
+__MACOSX
+# Ignore data folder files
+podcasts-no-audio-13GB/
+# Spreadsheet-style files
+*.tsv
+*.csv
+# Exception for model outputs
+!text_analysis/word2vec_model_outputs/*.csv

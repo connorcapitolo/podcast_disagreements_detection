@@ -1,0 +1,180 @@
+2021-12-10 19:33:11,386 :: Initializing log
+
+
+2021-12-10 19:33:11,386 :: Length of audio file for podcast id 6hoNS9LR1Lxb4EzMX72kXR: 2950.974693877551 seconds
+2021-12-10 19:33:11,386 :: Found audio file at location data/audio/6hoNS9LR1Lxb4EzMX72kXR.ogg
+
+2021-12-10 19:35:20,759 :: 6hoNS9LR1Lxb4EzMX72kXR took 2.16 minutes to load
+
+2021-12-10 19:35:33,499 :: Number of chunks in podcast id 6hoNS9LR1Lxb4EzMX72kXR: 3934
+2021-12-10 19:35:34,047 :: Number of audio time segments: 3934
+2021-12-10 19:35:34,048 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:35:43,305 :: Took 9.2569 seconds to complete dwt over each audio time segment
+2021-12-10 19:35:43,305 :: length of approximation coefficients cA_lst: 3934
+2021-12-10 19:35:43,305 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:35:56,095 :: Size of final dataframe for podcast id 6hoNS9LR1Lxb4EzMX72kXR: (3934, 8271)
+2021-12-10 19:36:00,111 :: Podcast id 6hoNS9LR1Lxb4EzMX72kXR took  2.812 minutes to complete
+
+
+2021-12-10 19:36:00,112 :: Length of audio file for podcast id 79aiOALBohH9vEIUHPAoRj: 2801.9054875283446 seconds
+2021-12-10 19:36:00,112 :: Found audio file at location data/audio/79aiOALBohH9vEIUHPAoRj.ogg
+
+2021-12-10 19:38:00,529 :: 79aiOALBohH9vEIUHPAoRj took 2.01 minutes to load
+
+2021-12-10 19:38:13,410 :: Number of chunks in podcast id 79aiOALBohH9vEIUHPAoRj: 3735
+2021-12-10 19:38:14,051 :: Number of audio time segments: 3735
+2021-12-10 19:38:14,051 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:38:22,886 :: Took 8.8349 seconds to complete dwt over each audio time segment
+2021-12-10 19:38:22,886 :: length of approximation coefficients cA_lst: 3735
+2021-12-10 19:38:22,886 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:38:34,121 :: Size of final dataframe for podcast id 79aiOALBohH9vEIUHPAoRj: (3735, 8271)
+2021-12-10 19:38:37,891 :: Podcast id 79aiOALBohH9vEIUHPAoRj took  2.630 minutes to complete
+
+
+2021-12-10 19:38:37,891 :: Length of audio file for podcast id 0pIwpmg5oPcMWJXVSyrx4E: 494.8636734693878 seconds
+2021-12-10 19:38:37,891 :: Found audio file at location data/audio/0pIwpmg5oPcMWJXVSyrx4E.ogg
+
+2021-12-10 19:38:58,848 :: 0pIwpmg5oPcMWJXVSyrx4E took 0.35 minutes to load
+
+2021-12-10 19:39:00,146 :: Number of chunks in podcast id 0pIwpmg5oPcMWJXVSyrx4E: 659
+2021-12-10 19:39:00,227 :: Number of audio time segments: 659
+2021-12-10 19:39:00,228 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:39:01,796 :: Took 1.5685 seconds to complete dwt over each audio time segment
+2021-12-10 19:39:01,797 :: length of approximation coefficients cA_lst: 659
+2021-12-10 19:39:01,797 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:39:03,837 :: Size of final dataframe for podcast id 0pIwpmg5oPcMWJXVSyrx4E: (659, 8271)
+2021-12-10 19:39:05,687 :: Podcast id 0pIwpmg5oPcMWJXVSyrx4E took  0.463 minutes to complete
+
+
+2021-12-10 19:39:05,687 :: Length of audio file for podcast id 7LxbgPH3grqf6lCpLKEwo7: 414.30204081632655 seconds
+2021-12-10 19:39:05,687 :: Found audio file at location data/audio/7LxbgPH3grqf6lCpLKEwo7.ogg
+
+2021-12-10 19:39:23,272 :: 7LxbgPH3grqf6lCpLKEwo7 took 0.29 minutes to load
+
+2021-12-10 19:39:24,097 :: Number of chunks in podcast id 7LxbgPH3grqf6lCpLKEwo7: 552
+2021-12-10 19:39:24,159 :: Number of audio time segments: 552
+2021-12-10 19:39:24,159 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:39:25,454 :: Took 1.2953 seconds to complete dwt over each audio time segment
+2021-12-10 19:39:25,454 :: length of approximation coefficients cA_lst: 552
+2021-12-10 19:39:25,454 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:39:27,161 :: Size of final dataframe for podcast id 7LxbgPH3grqf6lCpLKEwo7: (552, 8271)
+2021-12-10 19:39:28,996 :: Podcast id 7LxbgPH3grqf6lCpLKEwo7 took  0.388 minutes to complete
+
+
+2021-12-10 19:39:28,997 :: Length of audio file for podcast id 7vxD3WNDRkigLnIDHyy0cu: 465.37142857142857 seconds
+2021-12-10 19:39:28,997 :: Found audio file at location data/audio/7vxD3WNDRkigLnIDHyy0cu.ogg
+
+2021-12-10 19:39:48,658 :: 7vxD3WNDRkigLnIDHyy0cu took 0.33 minutes to load
+
+2021-12-10 19:39:49,588 :: Number of chunks in podcast id 7vxD3WNDRkigLnIDHyy0cu: 620
+2021-12-10 19:39:49,656 :: Number of audio time segments: 620
+2021-12-10 19:39:49,656 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:39:51,161 :: Took 1.5050 seconds to complete dwt over each audio time segment
+2021-12-10 19:39:51,161 :: length of approximation coefficients cA_lst: 620
+2021-12-10 19:39:51,161 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:39:53,106 :: Size of final dataframe for podcast id 7vxD3WNDRkigLnIDHyy0cu: (620, 8271)
+2021-12-10 19:39:54,872 :: Podcast id 7vxD3WNDRkigLnIDHyy0cu took  0.431 minutes to complete
+
+
+2021-12-10 19:39:54,872 :: Length of audio file for podcast id 7r367wUYs1EvyBbeyOcq39: 460.930612244898 seconds
+2021-12-10 19:39:54,873 :: Found audio file at location data/audio/7r367wUYs1EvyBbeyOcq39.ogg
+
+2021-12-10 19:40:14,820 :: 7r367wUYs1EvyBbeyOcq39 took 0.33 minutes to load
+
+2021-12-10 19:40:15,730 :: Number of chunks in podcast id 7r367wUYs1EvyBbeyOcq39: 614
+2021-12-10 19:40:15,800 :: Number of audio time segments: 614
+2021-12-10 19:40:15,800 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:40:17,213 :: Took 1.4127 seconds to complete dwt over each audio time segment
+2021-12-10 19:40:17,213 :: length of approximation coefficients cA_lst: 614
+2021-12-10 19:40:17,213 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:40:19,107 :: Size of final dataframe for podcast id 7r367wUYs1EvyBbeyOcq39: (614, 8271)
+2021-12-10 19:40:20,891 :: Podcast id 7r367wUYs1EvyBbeyOcq39 took  0.434 minutes to complete
+
+
+2021-12-10 19:40:20,891 :: Length of audio file for podcast id 0TkGYYIPwRqx8xzP0XGvRG: 1507.1825850340135 seconds
+2021-12-10 19:40:20,891 :: Found audio file at location data/audio/0TkGYYIPwRqx8xzP0XGvRG.ogg
+
+2021-12-10 19:41:25,288 :: 0TkGYYIPwRqx8xzP0XGvRG took 1.07 minutes to load
+
+2021-12-10 19:41:29,192 :: Number of chunks in podcast id 0TkGYYIPwRqx8xzP0XGvRG: 2009
+2021-12-10 19:41:29,482 :: Number of audio time segments: 2009
+2021-12-10 19:41:29,482 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:41:34,278 :: Took 4.7961 seconds to complete dwt over each audio time segment
+2021-12-10 19:41:34,278 :: length of approximation coefficients cA_lst: 2009
+2021-12-10 19:41:34,279 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:41:40,003 :: Size of final dataframe for podcast id 0TkGYYIPwRqx8xzP0XGvRG: (2009, 8271)
+2021-12-10 19:41:42,473 :: Podcast id 0TkGYYIPwRqx8xzP0XGvRG took  1.360 minutes to complete
+
+
+2021-12-10 19:41:42,474 :: Length of audio file for podcast id 1XgTQnRlfJ0zpDdg2DccbR: 2815.37306122449 seconds
+2021-12-10 19:41:42,474 :: Found audio file at location data/audio/1XgTQnRlfJ0zpDdg2DccbR.ogg
+
+2021-12-10 19:43:42,770 :: 1XgTQnRlfJ0zpDdg2DccbR took 2.00 minutes to load
+
+2021-12-10 19:43:51,782 :: Number of chunks in podcast id 1XgTQnRlfJ0zpDdg2DccbR: 3753
+2021-12-10 19:43:52,282 :: Number of audio time segments: 3753
+2021-12-10 19:43:52,282 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:44:01,082 :: Took 8.8006 seconds to complete dwt over each audio time segment
+2021-12-10 19:44:01,083 :: length of approximation coefficients cA_lst: 3753
+2021-12-10 19:44:01,083 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:44:12,455 :: Size of final dataframe for podcast id 1XgTQnRlfJ0zpDdg2DccbR: (3753, 8271)
+2021-12-10 19:44:16,448 :: Podcast id 1XgTQnRlfJ0zpDdg2DccbR took  2.566 minutes to complete
+
+
+2021-12-10 19:44:16,448 :: Length of audio file for podcast id 2hgBlERSFYDWndqjWNOV6v: 2382.968163265306 seconds
+2021-12-10 19:44:16,448 :: Found audio file at location data/audio/2hgBlERSFYDWndqjWNOV6v.ogg
+
+2021-12-10 19:45:58,550 :: 2hgBlERSFYDWndqjWNOV6v took 1.70 minutes to load
+
+2021-12-10 19:46:05,058 :: Number of chunks in podcast id 2hgBlERSFYDWndqjWNOV6v: 3177
+2021-12-10 19:46:05,412 :: Number of audio time segments: 3177
+2021-12-10 19:46:05,412 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:46:12,798 :: Took 7.3853 seconds to complete dwt over each audio time segment
+2021-12-10 19:46:12,798 :: length of approximation coefficients cA_lst: 3177
+2021-12-10 19:46:12,798 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:46:22,026 :: Size of final dataframe for podcast id 2hgBlERSFYDWndqjWNOV6v: (3177, 8271)
+2021-12-10 19:46:25,752 :: Podcast id 2hgBlERSFYDWndqjWNOV6v took  2.155 minutes to complete
+
+
+2021-12-10 19:46:25,753 :: Length of audio file for podcast id 1jfWVd1sTapjjkQwDM4yQX: 357.0677551020408 seconds
+2021-12-10 19:46:25,753 :: Found audio file at location data/audio/1jfWVd1sTapjjkQwDM4yQX.ogg
+
+2021-12-10 19:46:41,179 :: 1jfWVd1sTapjjkQwDM4yQX took 0.26 minutes to load
+
+2021-12-10 19:46:41,897 :: Number of chunks in podcast id 1jfWVd1sTapjjkQwDM4yQX: 476
+2021-12-10 19:46:41,950 :: Number of audio time segments: 476
+2021-12-10 19:46:41,950 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:46:43,059 :: Took 1.1086 seconds to complete dwt over each audio time segment
+2021-12-10 19:46:43,059 :: length of approximation coefficients cA_lst: 476
+2021-12-10 19:46:43,059 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:46:44,555 :: Size of final dataframe for podcast id 1jfWVd1sTapjjkQwDM4yQX: (476, 8271)
+2021-12-10 19:46:46,201 :: Podcast id 1jfWVd1sTapjjkQwDM4yQX took  0.341 minutes to complete
+
+
+2021-12-10 19:46:46,201 :: Length of audio file for podcast id 2DCEgkjSeRQyMt8KovG8vF: 419.05632653061224 seconds
+2021-12-10 19:46:46,201 :: Found audio file at location data/audio/2DCEgkjSeRQyMt8KovG8vF.ogg
+
+2021-12-10 19:47:04,706 :: 2DCEgkjSeRQyMt8KovG8vF took 0.31 minutes to load
+
+2021-12-10 19:47:05,569 :: Number of chunks in podcast id 2DCEgkjSeRQyMt8KovG8vF: 558
+2021-12-10 19:47:05,630 :: Number of audio time segments: 558
+2021-12-10 19:47:05,630 :: Length of first audio time segment: 0.7500226757369615 seconds
+2021-12-10 19:47:06,904 :: Took 1.2739 seconds to complete dwt over each audio time segment
+2021-12-10 19:47:06,904 :: length of approximation coefficients cA_lst: 558
+2021-12-10 19:47:06,904 :: length of each chunk's approximation coefficients in cA_lst: 8269
+
+2021-12-10 19:47:09,047 :: Size of final dataframe for podcast id 2DCEgkjSeRQyMt8KovG8vF: (558, 8271)
+2021-12-10 19:47:10,843 :: Podcast id 2DCEgkjSeRQyMt8KovG8vF took  0.411 minutes to complete
+
+
+2021-12-10 19:47:10,845 :: Finished: took  13.991 minutes to loop through all 11 podcast episodes

@@ -1,0 +1,1 @@
+from audio_annotation.compile_annotations import compile_annotations

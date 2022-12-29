@@ -1,0 +1,141 @@
+podcast_disagreement_detection/audio_analysis % python cnn_spectrogram_all_annotations.py
+2021-12-12 01:48:42.392729: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.399451: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.399845: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.400389: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-12-12 01:48:42.401854: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.402335: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.402684: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.876917: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.877362: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.877728: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-12 01:48:42.878064: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6666 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2070 Super, pci bus id: 0000:01:00.0, compute capability: 7.5
+###################  Loading metadata... ###################
+Num GPUs Available:  1
+Ogg worked for ../data/audio/6hoNS9LR1Lxb4EzMX72kXR.ogg
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Ogg worked for ../data/audio/0TkGYYIPwRqx8xzP0XGvRG.ogg
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+Error with ogg file: Detected audio duration is greater than 10 hours for ogg file. Will convert to mp3 file for processing
+###################  Loading waveforms... ###################
+Loading from local file...
+Loading from local file...
+################### Initializing datasets...  ###################
+X_train: (19570, 55125)
+ y_train: (19570, 1)
+
+X_val: (4893, 55125)
+ y_val: (4893, 1)
+
+X_test: (5626, 55125)
+ y_test: (5626, 1)
+
+2021-12-12 01:48:48.616176: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 8630370000 exceeds 10% of free system memory.
+2021-12-12 01:48:53.344393: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 8630370000 exceeds 10% of free system memory.
+(212, 50)
+(212, 50)
+(212, 50)
+################### Initializing model...  ###################
+Training Examples:
+    Total: 19570
+    Positive: 442 (2.26% of total)
+
+Initial bias of classification layer: [-3.76759863]
+
+Class weights: {0: 0.5115537432036805, 1: 22.138009049773757}
+2021-12-12 01:48:56.602894: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 8630370000 exceeds 10% of free system memory.
+2021-12-12 01:48:59.250244: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 8630370000 exceeds 10% of free system memory.
+2021-12-12 01:49:03.231989: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8202
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 212, 50, 5)        85
+
+ max_pooling2d (MaxPooling2D  (None, 105, 24, 5)       0
+ )
+
+ dropout (Dropout)           (None, 105, 24, 5)        0
+
+ conv2d_1 (Conv2D)           (None, 105, 24, 5)        405
+
+ max_pooling2d_1 (MaxPooling  (None, 51, 11, 5)        0
+ 2D)
+
+ dropout_1 (Dropout)         (None, 51, 11, 5)         0
+
+ conv2d_2 (Conv2D)           (None, 51, 11, 5)         405
+
+ max_pooling2d_2 (MaxPooling  (None, 24, 4, 5)         0
+ 2D)
+
+ dropout_2 (Dropout)         (None, 24, 4, 5)          0
+
+ conv2d_3 (Conv2D)           (None, 24, 4, 5)          405
+
+ max_pooling2d_3 (MaxPooling  (None, 11, 1, 5)         0
+ 2D)
+
+ batch_normalization (BatchN  (None, 11, 1, 5)         20
+ ormalization)
+
+ flatten (Flatten)           (None, 55)                0
+
+ dense (Dense)               (None, 50)                2800
+
+ dense_1 (Dense)             (None, 25)                1275
+
+ dense_2 (Dense)             (None, 1)                 26
+
+=================================================================
+Total params: 5,421
+Trainable params: 5,411
+Non-trainable params: 10
+_________________________________________________________________
+None
+################### Fitting model...  ###################
+2021-12-12 01:49:04.695171: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 8630370000 exceeds 10% of free system memory.
+Epoch 1/30
+153/153 [==============================] - 36s 224ms/step - loss: 1.0658 - accuracy: 0.6979 - precision: 0.0187 - recall: 0.2398 - prc: 0.0231 - val_loss: 0.6865 - val_accuracy: 0.4139 - val_precision: 0.0235 - val_recall: 0.6126 - val_prc: 0.0201
+Epoch 2/30
+153/153 [==============================] - 37s 243ms/step - loss: 0.8097 - accuracy: 0.5877 - precision: 0.0212 - recall: 0.3824 - prc: 0.0234 - val_loss: 0.8918 - val_accuracy: 0.3511 - val_precision: 0.0239 - val_recall: 0.6937 - val_prc: 0.0204
+Epoch 3/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.7673 - accuracy: 0.5826 - precision: 0.0221 - recall: 0.4050 - prc: 0.0264 - val_loss: 1.0857 - val_accuracy: 0.1935 - val_precision: 0.0236 - val_recall: 0.8559 - val_prc: 0.0308
+Epoch 4/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.7361 - accuracy: 0.5877 - precision: 0.0237 - recall: 0.4299 - prc: 0.0269 - val_loss: 1.0758 - val_accuracy: 0.1664 - val_precision: 0.0235 - val_recall: 0.8829 - val_prc: 0.0310
+Epoch 5/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.7263 - accuracy: 0.5947 - precision: 0.0251 - recall: 0.4480 - prc: 0.0261 - val_loss: 1.0848 - val_accuracy: 0.0999 - val_precision: 0.0231 - val_recall: 0.9369 - val_prc: 0.0412
+Epoch 6/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.7060 - accuracy: 0.5840 - precision: 0.0284 - recall: 0.5249 - prc: 0.0277 - val_loss: 0.9484 - val_accuracy: 0.1271 - val_precision: 0.0234 - val_recall: 0.9189 - val_prc: 0.0412
+Epoch 7/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.6957 - accuracy: 0.5770 - precision: 0.0282 - recall: 0.5294 - prc: 0.0293 - val_loss: 0.9508 - val_accuracy: 0.1335 - val_precision: 0.0238 - val_recall: 0.9279 - val_prc: 0.0303
+Epoch 8/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.6964 - accuracy: 0.5762 - precision: 0.0285 - recall: 0.5362 - prc: 0.0306 - val_loss: 0.9850 - val_accuracy: 0.1006 - val_precision: 0.0229 - val_recall: 0.9279 - val_prc: 0.0336
+Epoch 9/30
+153/153 [==============================] - 40s 261ms/step - loss: 0.6943 - accuracy: 0.5840 - precision: 0.0288 - recall: 0.5317 - prc: 0.0297 - val_loss: 0.8999 - val_accuracy: 0.1635 - val_precision: 0.0241 - val_recall: 0.9099 - val_prc: 0.0304
+Epoch 10/30
+153/153 [==============================] - 42s 275ms/step - loss: 0.6815 - accuracy: 0.5730 - precision: 0.0294 - recall: 0.5588 - prc: 0.0339 - val_loss: 0.9257 - val_accuracy: 0.1243 - val_precision: 0.0235 - val_recall: 0.9279 - val_prc: 0.0294
+Epoch 11/30
+153/153 [==============================] - 39s 256ms/step - loss: 0.6863 - accuracy: 0.5694 - precision: 0.0297 - recall: 0.5701 - prc: 0.0371 - val_loss: 0.9953 - val_accuracy: 0.1097 - val_precision: 0.0234 - val_recall: 0.9369 - val_prc: 0.0369
+Epoch 12/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.6769 - accuracy: 0.5735 - precision: 0.0303 - recall: 0.5769 - prc: 0.0334 - val_loss: 0.8711 - val_accuracy: 0.1702 - val_precision: 0.0248 - val_recall: 0.9279 - val_prc: 0.0316
+Epoch 13/30
+153/153 [==============================] - 39s 255ms/step - loss: 0.6715 - accuracy: 0.5820 - precision: 0.0320 - recall: 0.5995 - prc: 0.0368 - val_loss: 0.9662 - val_accuracy: 0.0873 - val_precision: 0.0232 - val_recall: 0.9550 - val_prc: 0.0361
+Epoch 14/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.6651 - accuracy: 0.5681 - precision: 0.0312 - recall: 0.6041 - prc: 0.0378 - val_loss: 0.8715 - val_accuracy: 0.1561 - val_precision: 0.0244 - val_recall: 0.9279 - val_prc: 0.0327
+Epoch 15/30
+153/153 [==============================] - 39s 254ms/step - loss: 0.6715 - accuracy: 0.5793 - precision: 0.0323 - recall: 0.6086 - prc: 0.0355 - val_loss: 0.8656 - val_accuracy: 0.1621 - val_precision: 0.0250 - val_recall: 0.9459 - val_prc: 0.0302
+Epoch 16/30
+153/153 [==============================] - ETA: 0s - loss: 0.6668 - accuracy: 0.5772 - precision: 0.0314 - recall: 0.5928 - prc: 0.0377Restoring model weights from the end of the best epoch: 6.
+153/153 [==============================] - 39s 254ms/step - loss: 0.6668 - accuracy: 0.5772 - precision: 0.0314 - recall: 0.5928 - prc: 0.0377 - val_loss: 0.8892 - val_accuracy: 0.1296 - val_precision: 0.0239 - val_recall: 0.9369 - val_prc: 0.0347
+Epoch 00016: early stopping
+################### Evaluating model...  ###################
+44/44 [==============================] - 11s 152ms/step - loss: 0.9949 - accuracy: 0.0535 - precision: 0.0440 - recall: 0.9839 - prc: 0.0613
+[0.9949407577514648, 0.05350159853696823, 0.0440172478556633, 0.9839357137680054, 0.06133660301566124]
